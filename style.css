@@ -1,0 +1,78 @@
+.banner {
+  background-image: url("https://loremflickr.com/320/240");
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  padding: 120px 0;
+  font-weight: lighter;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.container {
+  margin: 50 px auto;
+  text-align: center;
+}
+
+.header-black {
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 20px 40px;
+  margin: 20px 0px;
+  border-radius: 8px;
+  font-size: 40px;
+}
+
+.subheader-black {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  /* padding: 20px 40px; */
+  /* border-radius: 8px; */
+  font-size: 30px;
+}
+
+.main-grey{
+  font-family: Arial, sans-serif;
+  color: grey;
+  line-height: 1.6;
+  padding: 10px 10px;
+  margin: 0;
+  border-radius: 8px;
+  /* display: block;
+  text-align: center;
+  text-wrap: wrap; */
+}
+
+.sub-container{
+  font-family: Arial, sans-serif;
+  text-align: start;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 430px;
+  }
+}
+
+/* background-image: url(https://qph.cf2.quoracdn.net/main-qimg-504678d9e10febd16836e544a2d2ac5e-lq); */
